@@ -86,6 +86,7 @@ func main() {
 		for word, occurrence := range occurrence.Words {
 			fmt.Printf("%s: %d\n", word, occurrence)
 		}
+
 	default:
 		fmt.Printf("Page not found\n")
 
